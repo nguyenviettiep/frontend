@@ -1,0 +1,49 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+  
+}
+
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    color: var(--black-color);
+}
+
+.btn--image {
+    position: absolute;
+    bottom: 10px;
+    left: 7px;
+}
+.icon{
+    padding-right: 2px;
+}
+.start--select {
+    font-size: 12px;
+    color: #f8ba04;
+
+}
+
+.btn {
+    color: #424242;
+    font-weight: 700;
+    font-size: 12px;
+    font-weight: 400;
+    padding:0px 17px;
+    padding-top: 14px;
+    padding-bottom: 10px;
+    background: #fff;
+    text-transform: uppercase;
+    display: block;
+}
